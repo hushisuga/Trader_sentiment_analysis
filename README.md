@@ -2,9 +2,13 @@
 
 This project analyzes how market sentiment impacts trader performance using historical trading and sentiment data. The goal is to quantify performance differences across **Fear, Greed, and Neutral** sentiment regimes, and to identify actionable trading strategy rules.
 
+
 <br>
 
 ## 📊 Sentiment Summary Table
+This analysis combines trader-level transaction data with daily Bitcoin sentiment classification (Fear/Greed/Neutral). 
+Data was aggregated at daily level to evaluate performance, behavioral changes, and regime-dependent trading outcomes.
+<br>
 
 | Metric                | Fear        | Greed       | Neutral      |
 |-----------------------|------------|------------|-------------|
@@ -13,6 +17,15 @@ This project analyzes how market sentiment impacts trader performance using hist
 | Avg Win Rate          | 41.6%      | 36.9%      | 26.1%       |
 | Avg Volatility        | 753        | 826        | 628         |
 | Avg Trade Count       | 4,183      | 1,169      | 893         |
+
+<br>
+
+## Methodology
+- Data cleaning and timestamp alignment
+- Daily aggregation of trader metrics
+- Feature engineering: win rate, activity segments, long/short behavior
+- Sentiment regime classification
+- Comparative statistical analysis
 
 <br>
 
@@ -109,7 +122,7 @@ However, higher trade count + higher volatility increases downside exposure.
 
 ### Strategy Rule
 
-- Enter contrarian positions during Fear
+- Consider contrarian positioning opportunities during Fear when supported by additional signals.
 - Restrict leverage
 - Apply stricter stop-loss thresholds
 
