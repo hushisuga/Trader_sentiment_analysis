@@ -17,6 +17,11 @@ This project analyzes how market sentiment impacts trader performance using hist
 <br>
 
 ## 🔹 Insight 1 — Performance Asymmetry Across Sentiment Regimes
+<br>
+
+![](Insight1_graph1.png)
+![](Insight1_graph2.png)
+
 
 ### Quantified Observation
 
@@ -49,6 +54,10 @@ Returns are attractive but not stable.
 <br>
 
 ## 🔹 Insight 2 — Trading Activity Magnifies Edge
+<br>
+
+![](Insight2_graph1.png)
+![](Insight2_graph2.png)
 
 ### Quantified Observation
 
@@ -82,7 +91,9 @@ Overtrading in directionless regimes erodes capital via noise exposure.
 <br>
 
 ## 🔹 Insight 3 — Fear Regime Offers Highest Alpha with Higher Risk
+<br>
 
+![](Insight3_graph1.png)
 ### Quantified Observation
 
 - Fear avg PnL:
@@ -109,6 +120,10 @@ Higher opportunity comes with elevated variance and possible sharp drawdowns.
 <br>
 
 ## 🔹 Insight 4 — Neutral Markets Penalize Aggression
+
+<br>
+
+![](Insight4_graph1.png)
 
 ### Quantified Observation
 
